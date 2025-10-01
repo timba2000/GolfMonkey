@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GolfMonkey | Precision Golf Coaching</title>
+    <meta
+      name="description"
+      content="GolfMonkey delivers data-driven coaching and training programs to help golfers lower their scores and enjoy the game."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <a class="logo" href="#home" aria-label="GolfMonkey home">
+          <span class="logo-icon" aria-hidden="true">⛳</span>
+          <span class="logo-text">GolfMonkey</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="#training">Training</a>
+          <a href="#technology">Technology</a>
+          <a href="#membership">Membership</a>
+          <a href="#testimonials">Players</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+      <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile">
+        <a href="#training">Training</a>
+        <a href="#technology">Technology</a>
+        <a href="#membership">Membership</a>
+        <a href="#testimonials">Players</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-background" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Performance Coaching for Every Swing</p>
+            <h1 id="hero-title">Lower Your Score, Raise Your Confidence</h1>
+            <p class="lead">
+              GolfMonkey blends tour-level coaching, precision technology, and on-course mindset work to help players of every handicap level feel confident on the tee box.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#contact">Book a Swing Assessment</a>
+              <a class="btn ghost" href="#technology">Explore Our Tech</a>
+            </div>
+            <dl class="hero-stats" aria-label="GolfMonkey training impact">
+              <div>
+                <dt>2.6</dt>
+                <dd>Average strokes gained after 10 sessions</dd>
+              </div>
+              <div>
+                <dt>94%</dt>
+                <dd>Players reporting improved consistency</dd>
+              </div>
+              <div>
+                <dt>1,200+</dt>
+                <dd>Rounds tracked with GolfMonkey Insights</dd>
+              </div>
+            </dl>
+          </div>
+          <aside class="hero-card" aria-label="Featured training session">
+            <div class="card-header">
+              <span class="badge">New</span>
+              <span class="session-type">Green Reading Lab</span>
+            </div>
+            <h2>Visualize Every Break</h2>
+            <p>
+              Master green speeds with our AimPoint-inspired drills. Combine real-time sensor feedback with guided routines to dial in your pace putting.
+            </p>
+            <ul>
+              <li>Live slope mapping</li>
+              <li>Pace tempo metronome</li>
+              <li>Personalized speed charts</li>
+            </ul>
+            <a class="text-link" href="#training">See training modules →</a>
+          </aside>
+        </div>
+      </section>
+
+      <section id="training" class="section" aria-labelledby="training-title">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">The GolfMonkey Method</p>
+            <h2 id="training-title">Tour-Backed Coaching That Fits Your Schedule</h2>
+            <p>
+              Our coaching pathway is built around three pillars that keep your swing sharp on the range and reliable under pressure.
+            </p>
+          </header>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon" aria-hidden="true">🎯</div>
+              <h3>Precision Fundamentals</h3>
+              <p>
+                Layered drills build a bulletproof setup: grip, alignment, ball position, and tempo. We track motion in 3D to reinforce every improvement.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="icon" aria-hidden="true">📊</div>
+              <h3>Insights That Matter</h3>
+              <p>
+                Launch monitor data, strokes gained analytics, and pressure zone scoring reveal exactly where to focus between sessions.
+              </p>
+            </article>
+            <article class="feature-card">
+              <div class="icon" aria-hidden="true">🧠</div>
+              <h3>Competitive Mindset</h3>
+              <p>
+                Course strategy sessions and mental game routines teach you how to commit to every shot with calm, tournament-ready focus.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="technology" class="section split" aria-labelledby="technology-title">
+        <div class="container split-container">
+          <div class="split-media" role="presentation" aria-hidden="true">
+            <div class="ball"></div>
+            <div class="swing-path"></div>
+            <div class="pin"></div>
+          </div>
+          <div class="split-copy">
+            <p class="eyebrow">Smart Practice, Smarter Play</p>
+            <h2 id="technology-title">Technology That Travels With You</h2>
+            <p>
+              GolfMonkey Insights pairs a wearable swing sensor with our on-course mobile app. Track tempo, face angle, and attack path in real time, then review AI-powered round recaps.
+            </p>
+            <ul class="checklist">
+              <li>AI shot tagging and smart club recommendations</li>
+              <li>Virtual caddie charts for your home course</li>
+              <li>Benchmark against players at your handicap</li>
+            </ul>
+            <a class="btn secondary" href="#contact">Request a tech demo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="timeline-title">
+        <div class="container">
+          <header class="section-header compact">
+            <p class="eyebrow">Results in Every Phase</p>
+            <h2 id="timeline-title">A Training Journey Built Around Your Season</h2>
+          </header>
+          <ol class="timeline">
+            <li>
+              <div class="step">
+                <h3>Off-Season Blueprint</h3>
+                <p>Deep dive evaluation, mobility screening, and swing speed foundations to set your target goals.</p>
+              </div>
+            </li>
+            <li>
+              <div class="step">
+                <h3>In-Season Edge</h3>
+                <p>Weekly short game calibrations plus playing lessons to keep your scoring clubs dialed.</p>
+              </div>
+            </li>
+            <li>
+              <div class="step">
+                <h3>Championship Prep</h3>
+                <p>Pressure training, mental game rehearsal, and tournament yardage scripting for peak weeks.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="membership" class="section" aria-labelledby="membership-title">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Memberships</p>
+            <h2 id="membership-title">Choose the Experience That Fits Your Game</h2>
+          </header>
+          <div class="plan-grid">
+            <article class="plan">
+              <h3>Practice Lab</h3>
+              <p class="price">$189<span>/mo</span></p>
+              <ul>
+                <li>2 studio sessions monthly</li>
+                <li>Launch monitor data reports</li>
+                <li>Personalized drill library</li>
+              </ul>
+              <a class="btn tertiary" href="#contact">Start with Practice Lab</a>
+            </article>
+            <article class="plan highlighted" aria-label="Most popular membership plan">
+              <p class="badge">Most Popular</p>
+              <h3>Tour Track</h3>
+              <p class="price">$349<span>/mo</span></p>
+              <ul>
+                <li>Weekly coaching sessions</li>
+                <li>On-course game management</li>
+                <li>Unlimited video feedback</li>
+              </ul>
+              <a class="btn primary" href="#contact">Join Tour Track</a>
+            </article>
+            <article class="plan">
+              <h3>Elite Squad</h3>
+              <p class="price">Custom</p>
+              <ul>
+                <li>Full tournament support</li>
+                <li>Sports performance network</li>
+                <li>Travel concierge services</li>
+              </ul>
+              <a class="btn tertiary" href="#contact">Build Your Elite Plan</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section" aria-labelledby="testimonials-title">
+        <div class="container">
+          <header class="section-header compact">
+            <p class="eyebrow">Player Stories</p>
+            <h2 id="testimonials-title">“My card has never looked so clean.”</h2>
+          </header>
+          <div class="testimonial-slider" role="region" aria-live="polite">
+            <figure class="testimonial" data-active="true">
+              <blockquote>
+                “I dropped five shots off my index this summer. GolfMonkey dialed in my wedges and gave me confidence over every six-footer.”
+              </blockquote>
+              <figcaption>
+                <div class="name">Shannon, 8.1 Index</div>
+                <div class="meta">Club Champion | Member since 2022</div>
+              </figcaption>
+            </figure>
+            <figure class="testimonial">
+              <blockquote>
+                “The green reading lab changed my putting routine overnight. I’m seeing lines and rolling putts with speed for the first time.”
+              </blockquote>
+              <figcaption>
+                <div class="name">Marcus, 3.4 Index</div>
+                <div class="meta">Former collegiate player</div>
+              </figcaption>
+            </figure>
+            <figure class="testimonial">
+              <blockquote>
+                “Having launch data and strategy notes in one app means I know exactly how to prepare before tournaments.”
+              </blockquote>
+              <figcaption>
+                <div class="name">Priya, +1.2 Index</div>
+                <div class="meta">Amateur circuit finalist</div>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="slider-controls" role="group" aria-label="Testimonial navigation">
+            <button class="slider-btn prev" aria-label="Show previous testimonial">‹</button>
+            <button class="slider-btn next" aria-label="Show next testimonial">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta" aria-labelledby="contact-title">
+        <div class="container cta-container">
+          <div class="cta-copy">
+            <p class="eyebrow">Ready for the next round?</p>
+            <h2 id="contact-title">Let’s build a coaching plan that travels from range to fairway.</h2>
+            <p>
+              Tell us where you want to take your game and we’ll design a program around your schedule, goals, and favorite course.
+            </p>
+          </div>
+          <form class="cta-form">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Jordan Player" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Current Handicap
+              <input type="text" name="handicap" placeholder="12" />
+            </label>
+            <label>
+              What’s your next milestone?
+              <textarea name="message" rows="3" placeholder="Break 80, qualify for club championship…"></textarea>
+            </label>
+            <button class="btn primary" type="submit">Schedule Your Call</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-brand">
+          <div class="logo" aria-hidden="true">
+            <span class="logo-icon">⛳</span>
+            <span class="logo-text">GolfMonkey</span>
+          </div>
+          <p>Training crafted by PGA professionals and tour data specialists.</p>
+        </div>
+        <div class="footer-columns">
+          <div>
+            <h3>Studio</h3>
+            <ul>
+              <li><a href="#training">Coaching Pathway</a></li>
+              <li><a href="#technology">Tech Lab</a></li>
+              <li><a href="#membership">Memberships</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Connect</h3>
+            <ul>
+              <li><a href="mailto:hello@golfmonkey.co">hello@golfmonkey.co</a></li>
+              <li><a href="tel:+11234567890">(123) 456-7890</a></li>
+              <li><a href="#contact">Book a Visit</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Follow</h3>
+            <ul>
+              <li><a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+              <li><a href="https://youtube.com" target="_blank" rel="noreferrer">YouTube</a></li>
+              <li><a href="https://tiktok.com" target="_blank" rel="noreferrer">TikTok</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="footer-meta">© <span id="year"></span> GolfMonkey Performance. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
